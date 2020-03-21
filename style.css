@@ -1,0 +1,330 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+.logo {
+	height: 70px;
+	float: left;
+}
+.iconmenu {
+	display: none;
+}
+.nav-list {
+	height: 70px;
+	float: right;
+	list-style: none;
+	line-height: 70px
+}
+li {
+	float: left;
+	padding: 0 30px;
+	font-size: 16px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.visual {
+	background-image: url(img/mv.png);
+	width: 100%;
+	height: 650px;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+.visual-main-text {
+	padding-top: 200px;
+	font-size: 64px;
+	color: #FAFAFA;
+}
+.visual-text {
+	padding-top: 10px;
+	font-size: 20px;
+	color: #FAFAFA;
+}
+
+
+.portfolio {
+	background-color: #ECEFF1;
+	width: 100%;
+	text-align: center;
+}
+.main-title {
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+}
+.boder {
+	width: 70px;
+	border-bottom: solid 3px;
+	display: inline-block;
+	padding-top: 8px;
+	color: #EC715F;
+}
+.main-text {
+	padding-top: 30px;
+	font-size: 16px;
+	color: #000000;
+}
+.portfolio-box {
+	width: 920px;
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+.images {
+	width: 300px;
+	height: 250px;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+.images:nth-child(-n+3) {
+	padding-bottom: 10px;
+}
+.images:nth-child(2) {
+	padding: 0 10px 10px 10px;
+}
+.images:nth-child(5) {
+	padding: 0 10px 0 10px;
+}
+.feature {
+	width: 100%;
+	text-align: center;
+}
+.f-main {
+    width: 980px;
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+.f-box {
+	width: 320px;
+	margin: 0 auto;
+	float: left;
+	padding-top: 30px;
+}
+.f-box:nth-child(2) {
+	padding: 30px 10px 0 10px;
+}
+i {
+	font-size: 60px;
+}
+.f-title {
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+}
+.f-text {
+	text-align: left;
+}
+
+
+.profile {
+	background-color: #ECEFF1;
+	width: 100%;
+	text-align: center;
+}
+.profile-box {
+	width: 1024px;
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+.left-box {
+	float: left;
+	width: 512px;
+}
+.profile-image {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	border-radius: 50%;
+}
+.right-box {
+	width: 512px;
+	float: left;
+	text-align: left;
+}
+.right-main {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.right-text {
+	font-size: 16px;
+	 color: #000000;
+	 padding-bottom: 20px;
+}
+.contact {
+	width: 100%;
+	text-align: center;
+}
+.contact-box {
+	width: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+.contact-left {
+	width: 400px;
+	float: left;
+}
+.left-1 {
+	width: 130px;
+	margin: 0 auto;
+	text-align: left;
+}
+.c-text {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.c-text1-2 {
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.c-text2 {
+	color: #000000;
+}
+.contact-right {
+	width: 400px;
+	float: left;
+}
+.right-1 {
+	width: 170px;
+	margin: 0 auto;
+	text-align: left;
+	padding-bottom: 5px;
+}
+.pi {
+	font-size: 50px;
+	float: left;
+}
+.pi:nth-child(odd) {
+	margin: 0 20px;
+}
+
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+	text-align: center;
+	line-height: 60px;
+}
+.footer-text {
+	font-size: 16px;
+	color: #FAFAFA;
+}
+
+
+@media screen and (max-width:768px) {
+
+nav {
+	display: none;
+}
+header {
+	height: 50px;
+}
+.iconmenu {
+	display: inline;
+	color: white;
+	float: right;
+}
+.fa-bars {
+	font-size: 50px;
+}
+.container {
+	width: 90%;
+}
+.logo {
+	height: 50px;
+	float: none;
+}
+.visual {
+	background-image: url(img/code.png);
+	width: 100%;
+	height: 650px;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+.visual-main-text {
+	font-size: 40px;
+}
+.visual-text {
+	font-size: 18px;
+}
+.mp {
+	width: 90%;
+	margin: 0 auto;
+}
+.sp {
+	display: none;
+}
+.images:nth-child(2) {
+	padding: 0;
+}
+.images:nth-child(4) {
+	padding: 10px 0;
+}
+
+
+
+.portfolio-box {
+	width: 90%;
+}
+.f-main {
+	width: 100%;
+}
+
+
+.profile-box {
+	width: 100%;
+}
+.left-box {
+	width: 100%;
+}
+.right-box {
+	padding-top: 20px;
+	width: 100%;
+}
+.right-box {
+	text-align: center;
+}
+
+.contact-box {
+	width: 100%;
+}
+.left-1 {
+	text-align: center;
+}
+.contact-left {
+	width: 100%;
+}
+.contact-right {
+	padding-top: 20px;
+	width: 100%;
+}
+.right-1 {
+	text-align: center;
+}
+
+
+}
